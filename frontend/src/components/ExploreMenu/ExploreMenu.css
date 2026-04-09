@@ -34,6 +34,11 @@
     cursor: pointer;
     border-radius: 50%;
     transition: 0.2s;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.explore-menu-list-item img:hover {
+    transform: scale(1.12);
 }
 
 .explore-menu-list-item p{
